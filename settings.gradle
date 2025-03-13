@@ -1,0 +1,2 @@
+include ':parse-library',':quickjs',':app', ':common-library'
+rootProject.name='SmartTV'

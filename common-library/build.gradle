@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 28
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileSdkVersion = 28
+
+}
+
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation('org.simpleframework:simple-xml:2.7.1') { exclude group: 'stax', module: 'stax-api' exclude group: 'xpp3', module: 'xpp3' }
+
+    compileOnly 'org.jsoup:jsoup:1.12.1'
+    compileOnly 'com.alibaba:fastjson:1.+'
+    compileOnly 'com.google.zxing:core:3.3.0'
+    compileOnly 'com.orhanobut:hawk:2.0.1'
+    compileOnly "com.google.android.exoplayer:exoplayer-core:2.19.0"
+    compileOnly 'org.greenrobot:eventbus:3.2.0'
+    compileOnly 'io.netty:netty-all:4.1.36.Final'
+
+    compileOnly files('libs/bcpkix-jdk15on-1.57.jar')
+    compileOnly files('libs/bcprov-jdk15on-157.jar')
+
+    implementation project(":quickjs")
+}
