@@ -7,3 +7,7 @@ ijkplayer 使用了TVBoxOSC编译的。比我自己编译的好像更能支持�
 下面为实际截图
 ![Screenshot_20250314-152654](https://github.com/user-attachments/assets/7b66523d-d15f-4447-8f4e-c338e7eea687)
 ![Screenshot_20250314-152640](https://github.com/user-attachments/assets/4d4976bb-1f30-4329-a934-d209b5335477)
+
+解析库默认现在支持dypy2,大部分采集站的Api等
+解析库配置可设置为:
+   https://raw.githubusercontent.com/jo-hero/smarttv/refs/heads/master/config.json
