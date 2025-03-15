@@ -24,11 +24,6 @@
       "urls": ["http://api.11bat.com", "http://www.lajiaozy1.com", "http://www.lajiaozy3.com"],
       "pclass": ["电影"]
     },
-    "辣椒资源": {
-      "name": "MacCmsParseHelper",
-      "urls": ["https://api.apilyzy.com", "https://lyzyz{2-100}.com", "https://api.laoya.vip"],
-      "pclass": ["电影"]
-    },
     "乐播资源": {
       "name": "MacCmsParseHelper",
       "urls": ["http://lbapiby.com", "https://lbapi{1-10}.com", "https://lebozy.com"],
