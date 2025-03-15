@@ -1,6 +1,6 @@
 {
-  "name": "18+成人解析",
-  "jar": "https://note.youdao.com/yws/public/resource/19ab251acc83af9be90dccbe652e608c/xmlnote/46298A71B77F4005991A5BF70E23CDC8/22880",
+  "name": "18+解析",
+  "jar": "https://raw.githubusercontent.com/jo-hero/smarttv/refs/heads/master/jar/jstv_parse.jar",
   "modules": {
     "色猫资源": {
       "name": "MacCmsParseHelper",
