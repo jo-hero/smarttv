@@ -1,1 +1,1 @@
-1||https://raw.githubusercontent.com/jo-hero/smarttv/refs/heads/master/jo-smart-tv-os-1.0.1-release.apk||false||加入观看直播功能！||小伶玩具&奇奇和悦悦的玩具&警车不慎掉入水坑&猫小帅魔法家族&猫扎特玩具&萌萌玩具故事&芭比和朋友们&风火轮火辣小跑车情景秀&趣味玩具故事汽车工程队&奇趣箱玩具故事&枫枫玩具
+1||https://raw.githubusercontent.com/jo-hero/smarttv/refs/heads/master/jo-smart-tv-os-1.0.1-release.apk||false||直播点播都有功能！||小伶玩具&奇奇和悦悦的玩具&警车不慎掉入水坑&猫小帅魔法家族&猫扎特玩具&萌萌玩具故事&芭比和朋友们&风火轮火辣小跑车情景秀&趣味玩具故事汽车工程队&奇趣箱玩具故事&枫枫玩具
